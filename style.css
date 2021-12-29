@@ -25,6 +25,7 @@ body {
      flex-direction: column;
      justify-content: center;
      padding-left: .6rem;
+     z-index: 2;
 }
 
 .title {
@@ -47,6 +48,19 @@ body {
     margin-bottom: 42px;
     
    
+}
+
+.titleDecor2 {
+    margin-top: auto;
+    margin-left: -3.2rem;
+    border-right: 0.5rem solid red;
+    border-top: 0;
+    transform: rotate( 
+-24deg);
+    padding-top: 3px;
+    margin-right: 0px;
+    border-right-width: 52px;
+    margin-bottom: 24px;
 }
 
 /* Intro Section */
