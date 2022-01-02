@@ -37,8 +37,8 @@ body {
 .titleDecor {
     margin-top: auto;
     margin-left: -8rem;
-    border-right: 1rem solid red;
-    border-left: 1rem solid red;
+    border-right: 1rem solid #EB001B;
+    border-left: 1rem solid #EB001B;
     border-top: 0;
     transform: rotate(
 -62deg);
@@ -53,7 +53,7 @@ body {
 .titleDecor2 {
     margin-top: auto;
     margin-left: -3.2rem;
-    border-right: 0.5rem solid red;
+    border-right: 0.5rem solid #EB001B;
     border-top: 0;
     transform: rotate( 
 -24deg);
@@ -161,17 +161,19 @@ body {
 .sep {
     margin-top: auto;
     margin-bottom: 0px;
-    /* border-top: 6px solid red; */
-    border-top: 32px solid #EA001C;
+    border-top: 30px solid #EA001C;
     border-bottom-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
 }
 
 #whiteLine {
-    border-top: 6px solid whitesmoke;
+    border-top: 10px solid whitesmoke;
 }
 
+#blackLine {
+    border-top: 20px solid black;
+}
 /* Buttons */
 
 /* Footer */
